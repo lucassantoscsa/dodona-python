@@ -1,0 +1,14 @@
+- tab: "Testes"
+  testcases:
+  - stdin: "John"
+    stdout: "Olá, John!"
+  - stdin: "Sophie"
+    stdout: "Olá, Sophie!"
+  - stdin: "5236-hello!"
+    stdout: "Olá, 5236-hello!!"
+  - stdin: "'world'"
+    stdout: "Olá, 'world'!"
+  - stdin: '"world"'
+    stdout: 'Olá, "world"!'
+  - stdin: "    "
+    stdout: "Olá,     !"
