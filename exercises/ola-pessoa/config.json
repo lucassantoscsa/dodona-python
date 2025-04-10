@@ -1,14 +1,18 @@
 {
-    "description": {
-      "names": {
-        "en": "Olá, pessoa",
-        "nl": "Olá, pessoa"
-      }
-    },
-    "evaluation": {
-      "handler": "tested",
-      "test_suite": "suite.yaml"
-    },
-    "programming_language": "python",
-    "access": "private"
+  "description": {
+    "names": {
+      "en": "Olá, pessoa",
+      "nl": "Olá, pessoa"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "programming_language": "python",
+  "access": "private",
+  "internals": {
+    "token": "38F7ece5B5M-pHFmKNwkzsBY5_FgPvWi6JGGh8KK-jSCbQH-YB7jTXTRpGQyDnd2",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
+}
