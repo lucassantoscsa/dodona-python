@@ -1,6 +1,6 @@
 Crie um programa em python que solicita um nome ao usuário e responda "Olá, `nome`!" substituindo `nome` pelo nome do usuário.
 
-## Exemplo 1 1
+## Exemplo 1
 ### Entrada
 ```console?lang=python&prompt=>>>
 Lucas
