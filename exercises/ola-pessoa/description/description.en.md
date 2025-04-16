@@ -1,4 +1,4 @@
-Crie um programa em python que solicita um nome ao usuário e responda "Olá, `nome`" substituindo `nome` pelo nome do usuário.
+Crie um programa em python que solicita um nome ao usuário e responda "Olá, `nome`!" substituindo `nome` pelo nome do usuário.
 
 ### Example
 
