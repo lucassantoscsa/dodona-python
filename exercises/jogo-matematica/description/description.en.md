@@ -1,4 +1,4 @@
-Imagine o jogo da nossa última atividade no Scratch. A regra daquele jogo dizia que, dado um valor `x`, que a pontuação atual de certo jogador, a nova pontuação do jogador será `x²-49` se x<0 ou `x/2`, caso contrário. Crie um programa em python que solicita um valor `x` e um valor `n` ao jogador, transforme esse valor `x` em float e responda a pontuação do jogador ao término das `n` rodadas atual.
+Imagine o jogo da nossa última atividade no Scratch. A regra daquele jogo dizia que, dado um valor `x`, que a pontuação atual de certo jogador, a nova pontuação do jogador será `x²-49` se x<0 ou `x/2`, caso contrário. Crie um programa em python que solicita um valor `x` e um valor `n` ao jogador, transforme esse valor `x` em float e responda a pontuação do jogador ao término das `n` rodadas. Lembre-se que `n` é inteiro.
 
 ## Exemplo 1
 ### Entradas
