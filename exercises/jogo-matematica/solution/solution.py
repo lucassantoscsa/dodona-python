@@ -1,6 +1,8 @@
-valor = input()
-valor = float(valor)
-if valor<0:
-    print(valor*valor-49)
-else:
-    print(valor/2)
+x = float(input())
+n = int(input())
+for n in range(y):
+    if x <0:
+        x = x**2-49
+    else:
+        x = x/2
+print(x)
