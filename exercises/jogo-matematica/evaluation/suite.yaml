@@ -1,7 +1,6 @@
 - tab: "Testes"
   testcases:
-  - stdin: "31.181818181818183"
-  - stdin: "9"
+  - stdin: "31.181818181818183,9"
     stdout: "0.06090198863636364"
   - stdin: "40.625"
   - stdin: "0"
