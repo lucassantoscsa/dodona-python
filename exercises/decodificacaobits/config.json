@@ -1,0 +1,21 @@
+{
+  "description": {
+    "names": {
+      "en": "Código Binário",
+      "nl": "Código Binário"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "programming_language": "python",
+  "access": "private",
+  "internals": {
+    "token": "svU-JkjKhPNTaXW933HaiQ6e2qyFrynemvsrJbXIuqSwf2aGMjB3QpEgIBM3SXCS",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  },
+  "labels": [
+    "teste1"
+  ]
+}
