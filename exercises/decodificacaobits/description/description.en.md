@@ -40,13 +40,13 @@ Para as letras minúsculas, a codificação segue um padrão específico:
 2.  Recrie a função `base_n` (que criamos em nossa última aula e converte um número - e você escolherá a base 2 - para sua representação decimal) para determinar a **posição** da letra correspondente a cada código binário. Lembre-se de que a parte relevante do código para a posição da letra é a parte **após o `011`**. Por exemplo, para `01100001`, você usaria `000001` na função `base_n`. O resultado dessa conversão para `000001` é 1, que indica a posição da letra 'a' se a sua lista começar com 'a' no índice 1. Se sua lista começar com o espaço no índice 0, 'a' estará no índice 1.
 A função base_n está definida abaixo, lembre-se de entendê-la.
 ```console?lang=python&prompt=>>>
-def base_n(numero,base):
-&nbsp;&nbsp;&nbsp;&nbsp;potencia = 0
-    resultado = 0
-    for algarismo in numero[::-1]:
-        resultado = resultado+int(algarismo)*base**potencia
-        potencia = potencia+1
-    return resultado
+    def base_n(numero,base):
+        potencia = 0
+        resultado = 0
+        for algarismo in numero[::-1]:
+            resultado = resultado+int(algarismo)*base**potencia
+            potencia = potencia+1
+        return resultado
 ```
 3. Lembre que você terá que dividir a mensagem cifrada em pedaços de oito caracteres, antes de pensar na conversão, foque nisso. Para isso, lembre-se que você pegará todos os intervalos de tamanho 8 que se iniciam em posições múltiplas de 8 na mensagem (se a mensagem for `0110111101101001`, você deverá ser capaz de dividí-la em `01101111` e `01101001`). Utilize o for e atente-se à dica de que estamos pulando de 8 em 8 o início do nosso "corte".
 4. Quando já estiver conseguindo dividir sua mensagem e imprimir as sequências de bits separadamente, comece a se preocupar em decifrar a mensagem. Crie uma variável cujo dado seja uma string vazia. Isole os 5 últimos termos de cada sequência e busque na lista qual caractere deveria estar naquela posição. Atualize sua variável concatenando esse caractere a ela. No final, seu print será o valor final dessa variável.
