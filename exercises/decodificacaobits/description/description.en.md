@@ -41,7 +41,7 @@ Para as letras minúsculas, a codificação segue um padrão específico:
 A função base_n está definida abaixo, lembre-se de entendê-la.
 ```console?lang=python&prompt=>>>
 def base_n(numero,base):
-    potencia = 0
+&nbsp;&nbsp;&nbsp;&nbsp;potencia = 0
     resultado = 0
     for algarismo in numero[::-1]:
         resultado = resultado+int(algarismo)*base**potencia
