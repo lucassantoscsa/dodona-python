@@ -1,7 +1,7 @@
 - tab: "Testes"
   testcases:
-  - stdin: "01101000011011110110101001100101000000000110010101110011011101000110000100000000011101010110110100000000011001000110100101100001000000000110110001101001011011010111000001101111"
-    stdout: "hoje esta um dia limpo"
+  - stdin: "Carlos Sainz Jr.;55;Williams-Mercedes;135241;135496\nMax Verstappen;1;Red Bull Racing-Honda RBPT;270255\nLance Stroll;18;Aston Martin-Mercedes;90318;90376;90362\nLiam Lawson;30;Racing Bulls-Honda RBPT;90446;90359;90375\nOscar Piastri;81;McLaren-Mercedes;90080;90085;90030\nFranco Colapinto;43;Alpine-Renault;270560\nIsack Hadjar;6;Racing Bulls-Honda RBPT;90186;90231;90407\nEsteban Ocon;31;Haas-Ferrari;90290;90243;90217\nCharles Leclerc;16;Ferrari;270497\nOliver Bearman;87;Haas-Ferrari;90162;90183;90538\nGeorge Russell;63;Mercedes;135574;135295\nNico Hülkenberg;27;Kick Sauber-Ferrari;90136;90510;90231\nAlexander Albon;23;Williams-Mercedes;135376;135284\nYuki Tsunoda;22;Red Bull Racing-Honda RBPT;135304;135445\nFernando Alonso;14;Aston Martin-Mercedes;135428;135441\nGabriel Bortoleto;5;Kick Sauber-Ferrari;270679\nPierre Gasly;10;Alpine-Renault;90542;90225;90371\nLando Norris;4;McLaren-Mercedes;270479\nAndrea Kimi Antonelli;12;Mercedes;90292;90310;90543\nLewis Hamilton;44;Ferrari;90395;90548;90358"
+    stdout: "Oscar Piastri,McLaren-Mercedes,90080,90085,90030"
   - stdin: "0110111101101001"
     stdout: "oi"
   - stdin: "011000100110111101100001000000000111010001100001011100100110010001100101"

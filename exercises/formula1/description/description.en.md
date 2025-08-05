@@ -44,29 +44,59 @@ Sua tarefa é criar um código que leia os resultados de cada piloto em uma corr
 ## Exemplo 1
 ### Entradas
 ```console?lang=python&prompt=>>>
-01101000011011110110101001100101000000000110010101110011011101000110000100000000011101010110110100000000011001000110100101100001000000000110110001101001011011010111000001101111
+George Russell;63;Mercedes;270478
+Lance Stroll;18;Aston Martin-Mercedes;270479
+Esteban Ocon;31;Haas-Ferrari;135409;135411
+Lewis Hamilton;44;Ferrari;90168;90385;90462
+Alexander Albon;23;Williams-Mercedes;135153;135345
+Charles Leclerc;16;Ferrari;270473
+Isack Hadjar;6;Racing Bulls-Honda RBPT;270374
+Gabriel Bortoleto;5;Kick Sauber-Ferrari;135393;135201
+Franco Colapinto;43;Alpine-Renault;135402;135386
+Andrea Kimi Antonelli;12;Mercedes;90350;90412;90401
+Pierre Gasly;10;Alpine-Renault;135407;135293
+Oliver Bearman;87;Haas-Ferrari;90140;90252;90133
+Liam Lawson;30;Racing Bulls-Honda RBPT;90097;89985;90055
+Nico Hülkenberg;27;Kick Sauber-Ferrari;90118;90183;90537
+Carlos Sainz Jr.;55;Williams-Mercedes;90196;90429;90408
+Lando Norris;4;McLaren-Mercedes;135478;135374
+Max Verstappen;1;Red Bull Racing-Honda RBPT;90380;90119;90412
+Oscar Piastri;81;McLaren-Mercedes;270366
+Fernando Alonso;14;Aston Martin-Mercedes;90416;90131;90498
+Yuki Tsunoda;22;Red Bull Racing-Honda RBPT;90536;90488;90536
 ```
 ### Saída
 ```console?lang=python&prompt=>>>
-hoje esta um dia limpo
+Liam Lawson,Racing Bulls-Honda RBPT,90097,89985,90055
 ```
 
 ## Exemplo 2
 ### Entradas
 ```console?lang=python&prompt=>>>
-011000100110111101100001000000000111010001100001011100100110010001100101
-```
-### Saídas
-```console?lang=python&prompt=>>>
-boa tarde
-```
-
-## Exemplo 3
-### Entradas
-```console?lang=python&prompt=>>>
-0110111101101001
+Yuki Tsunoda;22;Red Bull Racing-Honda RBPT;90223;90288;90128
+Lewis Hamilton;44;Ferrari;135554;135197
+Andrea Kimi Antonelli;12;Mercedes;270528
+Esteban Ocon;31;Haas-Ferrari;135280;135388
+Pierre Gasly;10;Alpine-Renault;90510;90270;90352
+Charles Leclerc;16;Ferrari;90511;90305;90464
+Lance Stroll;18;Aston Martin-Mercedes;90150;90336;90375
+Oliver Bearman;87;Haas-Ferrari;90121;90424;90138
+Carlos Sainz Jr.;55;Williams-Mercedes;135395;135534
+Nico Hülkenberg;27;Kick Sauber-Ferrari;90201;90517;90532
+George Russell;63;Mercedes;90470;90190;90178
+Alexander Albon;23;Williams-Mercedes;90313;90496;90424
+Lando Norris;4;McLaren-Mercedes;135262;135435
+Franco Colapinto;43;Alpine-Renault;90493;90255;90117
+Isack Hadjar;6;Racing Bulls-Honda RBPT;90362;90325;90200
+Liam Lawson;30;Racing Bulls-Honda RBPT;90455;90341;90369
+Gabriel Bortoleto;5;Kick Sauber-Ferrari;90393;90529;90447
+Oscar Piastri;81;McLaren-Mercedes;90280;90461;90145
+Fernando Alonso;14;Aston Martin-Mercedes;90344;90203;90196
+Max Verstappen;1;Red Bull Racing-Honda RBPT;90096;90098;89953
 ```
 ### Saída
 ```console?lang=python&prompt=>>>
-oi
+Max Verstappen;1;Red Bull Racing-Honda RBPT;90096;90098;89953
 ```
+
+
