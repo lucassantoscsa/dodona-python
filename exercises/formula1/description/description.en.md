@@ -96,7 +96,7 @@ Max Verstappen;1;Red Bull Racing-Honda RBPT;90096;90098;89953
 ```
 ### Saída
 ```console?lang=python&prompt=>>>
-Max Verstappen;1;Red Bull Racing-Honda RBPT;90096;90098;89953
+Max Verstappen,1,Red Bull Racing-Honda RBPT,90096,90098,89953
 ```
 
 
