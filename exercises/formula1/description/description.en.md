@@ -28,7 +28,7 @@ Sua tarefa é criar um código que leia os resultados de cada piloto em uma corr
 2.  Antes do `for`, crie uma variável, que será uma lista vazia, para você salvar o piloto vencedor até aquele momento.
 3.  Após dividir as informações do piloto na lista, use o seguinte código para transformar o tempo de cada volta em um número inteiro:
 ```console?lang=python&prompt=>>>
-    sua_lista[2:] = [int(tempo) for tempo in sua_lista[2:]]
+    sua_lista[3:] = [int(tempo) for tempo in sua_lista[3:]]
 ```
 4. Um lista fatiada ainda é uma lista, então a função `sum` serve para ela.
 5. Compare a soma dos tempos do piloto analisado à soma dos tempos do piloto que está como vencedor na sua variável.
@@ -36,7 +36,7 @@ Sua tarefa é criar um código que leia os resultados de cada piloto em uma corr
     * Se o piloto que está sendo analisado tem tempo total menor do que o piloto que está como vencedor, ele é o novo vencedor.
 6. Após definir o piloto vencedor, use o seguinte código para transformar os dados numéricos em texto antes de usar o `join` para juntá-los e imprimí-los.
 ```console?lang=python&prompt=>>>
-    sua_lista[2:] = [str(tempo) for tempo in sua_lista[2:]]
+    sua_lista[3:] = [str(tempo) for tempo in sua_lista[3:]]
 ```
 
 ---
