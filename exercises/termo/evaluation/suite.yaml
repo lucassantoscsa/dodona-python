@@ -50,4 +50,4 @@
     stdout: "_*___\n_*___\n__*__\ncurar"
   - stdin: "25\nmanga\npente\namigo\nfarol"
     stdout: "_*___\n__*__\n_*_*_\nfarol"
-  - stdin: "26\npente\namigo\ntempo
+  - stdin: "26\npente\namigo\ntempo"
