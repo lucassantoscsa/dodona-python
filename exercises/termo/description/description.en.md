@@ -1,3 +1,5 @@
+---
+
 ## Termo
 
 ---
@@ -25,8 +27,6 @@ O **Termo** é um jogo de adivinhação de palavras onde, a cada tentativa, o jo
 ---
 
 ### Tarefa
-
-Implemente o seguinte código:
 
 1. **Importe a biblioteca**:
 
@@ -76,20 +76,54 @@ venceu = False
 
 6. **Laço de tentativas**:
 
+**Parte 1 – Teste de vitória:**
+
 ```console?lang=python&prompt=>>>
 while venceu == False:
     palpite = input()
     if palpite == palavra:
         venceu = True
+```
+
+**Parte 2 – Entrada no `else`:**
+
+```console?lang=python&prompt=>>>
     else:
         retorno = ''
+```
+
+**Parte 3 – Uso do `enumerate` (dividido em subpartes):**
+
+**3.1 – Cabeçalho do `for` com `enumerate`:**
+
+```console?lang=python&prompt=>>>
         for posicao, letra in enumerate(palpite):
+```
+
+**3.2 – Condição `if` (letra na posição correta):**
+
+```console?lang=python&prompt=>>>
             if letra == palavra[posicao]:
                 retorno = retorno + '@'
+```
+
+**3.3 – Condição `elif` (letra existe, mas em outra posição):**
+
+```console?lang=python&prompt=>>>
             elif letra in palavra:
                 retorno = retorno + '*'
+```
+
+**3.4 – Condição `else` (letra não existe na palavra):**
+
+```console?lang=python&prompt=>>>
             else:
                 retorno = retorno + '_'
+```
+
+**3.5 – Impressão do retorno após o `for`:**
+
+```console?lang=python&prompt=>>>
         print(retorno)
 ```
 
@@ -99,7 +133,7 @@ while venceu == False:
 print(palavra)
 ```
 
----
+
 
 ## Exemplo 1
 
@@ -109,14 +143,18 @@ print(palavra)
 42
 xxxxx
 amigo
+perda
 ```
 
 ### Saída
 
 ```console?lang=python&prompt=>>>
-__*__
-amigo
+_____
+*____
+perda
 ```
+
+---
 
 ## Exemplo 2
 
@@ -126,11 +164,14 @@ amigo
 7
 tempo
 vento
+dente
 ```
 
 ### Saída
 
 ```console?lang=python&prompt=>>>
-@_@@@
-vento
+*@___
+_@@@_
+dente
 ```
+
