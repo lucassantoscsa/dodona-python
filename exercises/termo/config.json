@@ -1,0 +1,21 @@
+{
+  "description": {
+    "names": {
+      "en": "Termo",
+      "nl": "Termo"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "programming_language": "python",
+  "access": "private",
+  "internals": {
+    "token": "UITIaJXCEzJsrhECTPpj-ZWQ2R523qh-XTrIk4AFn9Hr4JwjEs-3eMqvUwtFBx-H",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  },
+  "labels": [
+    "teste1"
+  ]
+}
